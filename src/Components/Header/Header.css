@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-content {
+    text-align: center;
+}
+.header-input-task {
+    padding: 10px 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.header-btn {
+    border: 1px solid black;
+    padding: 11px 27px;
+    margin-left: 10px;
+    background: darkred;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s all ease-in;
+}
+.header-btn:hover {
+    transition: 0.5s all ease-out;
+    color: #e3d4d4;
+}
