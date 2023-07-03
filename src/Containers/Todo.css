@@ -1,0 +1,26 @@
+.todo-task {
+    margin-top: 20px;
+    background: linear-gradient(45deg, #ff5b5b, #8b1e1e);
+    width: 275px;
+    text-align: center;
+    position: relative;
+    border-radius: 14px;
+}
+.todo-task-text {
+    color: white;
+    padding: 20px 30px;
+    word-wrap: break-word;
+}
+.todo-delete-btn {
+    position: absolute;
+    top: 6px;
+    font-size: 22px;
+    left: 250px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s all ease-in;
+}
+.todo-delete-btn:hover {
+    color: #e3d4d4;
+    transition: 0.4s all ease-out;
+}
