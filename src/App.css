@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
+body {
+  background: linen;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.todos-count {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  color: darkred;
+  font-weight: 400;
+}
+.todo-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/*MEDIA CSS*/
+
+@media screen and (max-width: 768px) {
+  .todos-count {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header-input-task {
+    padding: 10px 4px;
+  }
+}
